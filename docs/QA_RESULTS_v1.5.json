@@ -1,0 +1,25 @@
+{
+  "version": "1.5-static",
+  "checks_passed": 13,
+  "checks": [
+    "HTML document declares Italian language",
+    "HTML root mount exists",
+    "HTML loads React entry point",
+    "Wallet gateway uses ethers v6 BrowserProvider",
+    "Wallet connection requests accounts explicitly",
+    "App targets Sepolia chain id 11155111",
+    "App reads native balance without sending transactions",
+    "App does not request transaction signing",
+    "App warns that token is not issued",
+    "Contract declares fixed 100m supply with 18 decimals",
+    "Contract has no owner or external mint function",
+    "Contract only mints initial supply in constructor",
+    "Project exposes build and contract test scripts"
+  ],
+  "dependency_install": "BLOCKED_TIMEOUT",
+  "vite_build": "NOT_RUN",
+  "solidity_compile": "NOT_RUN",
+  "hardhat_tests": "NOT_RUN",
+  "sepolia_deployment": "NOT_RUN",
+  "note": "Static source checks only; not a substitute for compilation, runtime tests, audit, or deployment."
+}

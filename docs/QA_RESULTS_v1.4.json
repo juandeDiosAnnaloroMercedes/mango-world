@@ -1,0 +1,62 @@
+[
+  {
+    "check": "MetaMask provider check before use",
+    "passed": true,
+    "detail": "App checks provider availability before requesting accounts."
+  },
+  {
+    "check": "Explicit wallet permission request",
+    "passed": true,
+    "detail": "Uses the wallet permission request; no private key export."
+  },
+  {
+    "check": "Sepolia chain identifier",
+    "passed": true,
+    "detail": "Sepolia chain ID 11155111 is represented in app logic."
+  },
+  {
+    "check": "Wallet balance read-only",
+    "passed": true,
+    "detail": "Reads native balance; no transaction submission method found."
+  },
+  {
+    "check": "No seed/private-key collection strings",
+    "passed": true,
+    "detail": "No seed phrase/private-key collection string in app source."
+  },
+  {
+    "check": "ERC-20 based on OpenZeppelin",
+    "passed": true,
+    "detail": "Uses OpenZeppelin ERC20 base."
+  },
+  {
+    "check": "Supply constant 100 million",
+    "passed": true,
+    "detail": "MAX_SUPPLY fixed at 100,000,000 with 18 decimals."
+  },
+  {
+    "check": "No mint function exposed",
+    "passed": true,
+    "detail": "No public/external mint function found."
+  },
+  {
+    "check": "Contract test coverage",
+    "passed": true,
+    "detail": "Test source includes supply, balance, decimals and transfer assertions."
+  },
+  {
+    "check": "Build and test scripts declared",
+    "passed": true,
+    "detail": "Scripts exist in package manifest."
+  },
+  {
+    "check": "Responsive layout stylesheet",
+    "passed": true,
+    "detail": "Responsive CSS rules present."
+  },
+  {
+    "check": "No wallet transaction request in app",
+    "passed": true,
+    "detail": "No transaction/signing RPC request in app source."
+  }
+]

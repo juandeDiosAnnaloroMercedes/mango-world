@@ -1,0 +1,40 @@
+{
+  "version": "1.8.4",
+  "date": "2026-11-22",
+  "static_checks": {
+    "passed": 34,
+    "failed": 0,
+    "scope": "source-level assertions executed in this session"
+  },
+  "changes": [
+    "Added Windows and macOS/Linux one-command local verification scripts.",
+    "Scripts install dependencies, run static QA, build Vite, compile Solidity and run Hardhat tests.",
+    "Scripts do not perform any deployment and do not request private keys.",
+    "Added static assertions for both verification scripts."
+  ],
+  "environment_diagnostics": {
+    "npm_registry": "blocked_by_dns_EAI_AGAIN",
+    "npm_mirror_npmmirror": "blocked_by_dns_EAI_AGAIN",
+    "npm_mirror_yarnpkg": "blocked_by_dns_EAI_AGAIN",
+    "npm_cache": "empty"
+  },
+  "node_syntax_checks": {
+    "hardhat_config_cjs": "passed",
+    "deploy_script": "passed",
+    "qa_script": "passed",
+    "react_jsx": "not_verified_without_jsx_parser_and_dependencies"
+  },
+  "vite_build": "not_verified",
+  "solidity_compile": "not_verified",
+  "hardhat_tests": "not_executed",
+  "supabase_migration": "draft_not_applied_and_not_runtime_tested",
+  "sepolia_deployment": "not_performed",
+  "mainnet_deployment": "not_performed",
+  "real_eth_spent_or_transferred": false,
+  "initial_token_recipient": "not_selected",
+  "marketplace_backend": "not_implemented",
+  "admin_authentication_mfa": "not_implemented",
+  "legal_review": "pending",
+  "independent_security_audit": "pending",
+  "status": "not_production_ready"
+}

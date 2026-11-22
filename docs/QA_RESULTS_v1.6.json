@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-22",
+  "static_checks": {
+    "passed": 13,
+    "total": 13,
+    "status": "passed"
+  },
+  "dependency_install_online": "timed_out_after_120_seconds",
+  "dependency_install_offline": "blocked_ENOTCACHED",
+  "vite_build": "not_run",
+  "solidity_compile": "not_run",
+  "hardhat_tests": "not_run",
+  "sepolia_deployment": "not_run",
+  "real_eth_moved": false,
+  "token_deployed": false
+}

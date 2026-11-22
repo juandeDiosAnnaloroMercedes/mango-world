@@ -1,0 +1,17 @@
+{
+  "version": "1.8.5",
+  "date": "2026-11-22",
+  "static_checks": "35_passed_0_failed",
+  "node_syntax": "passed",
+  "jsx_syntax_parse": "passed_using_environment_typescript_parser",
+  "npm_registry": "dns_unavailable_official_and_alternate_registries",
+  "vite_build": "not_verified",
+  "solidity_compile": "not_verified",
+  "hardhat_tests": "not_executed",
+  "github_actions_workflow": "added_not_yet_run_requires_separate_mango_world_repository",
+  "supabase_migration": "not_applied_or_runtime_tested",
+  "sepolia_deployment": "not_executed",
+  "mainnet_deployment": "not_executed",
+  "real_eth_spent": false,
+  "production_ready": false
+}

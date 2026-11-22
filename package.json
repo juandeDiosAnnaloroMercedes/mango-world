@@ -1,0 +1,29 @@
+{
+  "name": "mango-world",
+  "version": "1.8.5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "contracts:compile": "hardhat --config hardhat.config.cjs compile",
+    "contracts:test": "hardhat --config hardhat.config.cjs test",
+    "qa:static": "node scripts/qa-static.mjs",
+    "contracts:deploy:sepolia": "hardhat --config hardhat.config.cjs run scripts/deploy-sepolia.js --network sepolia"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.2.0",
+    "ethers": "6.13.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "3.0.8",
+    "@vitejs/plugin-react": "4.3.4",
+    "chai": "4.5.0",
+    "hardhat": "2.22.18",
+    "vite": "6.0.5",
+    "dotenv": "16.4.7",
+    "@nomicfoundation/hardhat-chai-matchers": "2.0.8"
+  }
+}
